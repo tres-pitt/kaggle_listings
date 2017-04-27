@@ -25,12 +25,3 @@ for file in file_list:
 	    		for subkey, subvalue in value.items():
 	    			writer.writerow({'id': subkey, key: subvalue})
 
-# print('TRAIN_FILES')
-# for tf in train_files:
-# 	print(tf,end=', ')
-# print('TEST_FILES')
-# for tf in test_files:
-# 	print(tf, end=',')
-
-df1 = train_files[0]
-
